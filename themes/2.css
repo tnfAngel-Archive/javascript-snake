@@ -1,0 +1,23 @@
+.terrain {
+	background-color: #1cad4a;
+    border-style: solid;
+    border-color:  #178f3d
+}
+
+.head {
+	background-color: #5c3566;
+    border-style: solid;
+    border-color:  #5c3566;
+}
+
+.body {
+	background-color: #75507b;
+    border-style: solid;
+    border-color:  #5c3566
+}
+
+.apple {
+	background-color: #fee82c;
+    border-style: solid;
+    border-color:  #ebc831;
+}

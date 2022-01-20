@@ -1,0 +1,62 @@
+body {
+	background-color: #2e3436;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.game {
+	position: absolute;
+	line-height: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+.gameObject {
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+}
+
+.terrain {
+    height: 14px;
+	width: 14px;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.head {
+    height: 14px;
+	width: 14px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+}
+
+
+.body {
+    height: 14px;
+	width: 14px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+}
+
+
+.apple {
+    height: 14px;
+	width: 14px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+}
+
+
+.died {
+    background-color: #729fcf !important;
+    border-style: solid;
+    border-color:  #3465a4 !important
+
+}
