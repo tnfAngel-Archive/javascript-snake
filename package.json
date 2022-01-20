@@ -1,0 +1,24 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "HTML, CSS &amp; JS web snake.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnfAngel/javascript-snake.git"
+  },
+  "keywords": [],
+  "author": "tnfAngel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnfAngel/javascript-snake/issues"
+  },
+  "homepage": "https://github.com/tnfAngel/javascript-snake#readme"
+}
