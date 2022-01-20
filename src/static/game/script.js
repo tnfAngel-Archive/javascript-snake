@@ -103,13 +103,12 @@ class Snake {
         stop = true;
         this.died = true;
         document.title = '¡Game Over! - Snake by tnfAngel';
-        
-        const score = parseInt(localStorage.getItem('score') || 0);
 
-        const newScore = points > score;
-        
-        const normalMessage = 'Points: ' + points + ' Score: ' + score;
-        const scoreMessage = '¡New Score: ' + points +'!';
+        localStorage.setItem('points', points);
+
+        const bestScore = parseInt(localStorage.getItem('score') || 0);
+
+        const newScore = points > bestScore;
         
         if (newScore) localStorage.setItem('score', points);
 
@@ -120,9 +119,7 @@ class Snake {
         }, 1)
 
         setTimeout(() => {
-            alert('¡Game over! ' + (newScore ? scoreMessage : normalMessage));
-            console.log('hey')
-    		window.location.reload();
+    		window.location.replace(`/die?ns=${newScore}`);
         }, 1000)
 	}
 	addTrail() {

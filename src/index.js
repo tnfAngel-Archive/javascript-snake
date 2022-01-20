@@ -29,6 +29,10 @@ app.get('/play', (req, res) => {
 	res.sendFile('play.html', { root: join(__dirname, './pages') });
 });
 
+app.get('/die', (req, res) => {
+	res.sendFile('die.html', { root: join(__dirname, './pages') });
+});
+
 // Server
 server.listen(app.get('port'), () => {
 	console.log(`Server listening on port ${app.get('port')}`);

@@ -1,0 +1,45 @@
+body {
+	background-color: #2e3436;
+	overflow: auto;
+	white-space: nowrap;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    font-family: arial;
+    color:  #fce94f;
+    text-transform: uppercase;
+}
+
+.desc {
+    font-size: 20px;
+    font-family: arial;
+    color: #729fcf;
+    text-transform: uppercase;
+}
+
+.desc_alt {
+    color: #fce94f;
+}
+
+.play-button {
+    font-size: 25px;
+    font-weight: 40px;
+    height: 50px;
+    width: 170px;
+    font-family: arial;
+    color:  #729fcf;
+    text-transform: uppercase;
+    background-color: #fce94f;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #c4a000;
+    transition: all 0.5s;
+}
+
+.play-button:hover {
+    background-color: #dbb62d;
+
+}
