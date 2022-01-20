@@ -344,10 +344,10 @@ const searchParams = new URLSearchParams(window.location.href);
 const terrain = new Terrain(parseInt(searchParams.get('x') || 32), parseInt(searchParams.get('y') || 32));
 const terrainSizes = terrain.getSizes();
 
-document.head.innerHTML += `<link rel="stylesheet" href="/themes/${searchParams.get('theme') || '1'}.css"/>`
+document.head.innerHTML += `<link rel="stylesheet" href="/static/themes/${searchParams.get('theme') || '1'}.css"/>`
 document.body.innerHTML += `
     <audio autoplay>
-      <source src="/music/${searchParams.get('music') || '1'}.mp3" type="audio/mpeg">
+      <source src="/static/music/${searchParams.get('music') || '1'}.mp3" type="audio/mpeg">
     </audio>
     `;
 let terrainY = -1;
